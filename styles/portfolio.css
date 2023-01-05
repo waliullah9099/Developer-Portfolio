@@ -137,13 +137,104 @@ main {
     padding: 30px;
 }
 
-.skill-info{
+.skill-info {
     color: #181818;
     font-weight: 700;
     font-size: 20px;
     margin: 20px 0;
 }
-.skill-decs{
+
+.skill-decs {
     color: #757575;
     font-size: 16px;
+}
+
+/* Resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+    margin: 9em 0 30px;
+}
+
+.resume-item {}
+
+.resume-tittle {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.resume-tittle {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-item .tittle {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin: 30px 0 10px;
+}
+
+.resume-item .sub-tittle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.resume-item .description {
+    color: #757575;
+    font-size: 16px;
+    margin: 20px 0 30px;
+}
+
+.resume-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    gap: 110px;
+    background: #FFF8F3;
+    padding: 100px 200px;
+    border-radius: 5px;
+}
+
+.contact .section-tittle {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.contact .section-description {
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.contact a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.contact .section-tittle {
+    text-align: left;
 }
